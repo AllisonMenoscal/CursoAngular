@@ -1,0 +1,119 @@
+
+<!-- Header -->
+<div class="toolbar" role="banner">
+  <span>CONFERENCIA DE ANGULAR</span>
+  <img
+    alt="Angular9Logo"
+    src="https://angular.io/assets/images/logos/angularjs/AngularJS-Shield.svg"
+  />
+</div>
+
+<!-- Body -->
+  <div class="Introduccion">
+    <h2>Introduccio&#769;n</h2>
+    <p>Angular es una plataforma para la creacion de aplicaciones web tanto para desktop como para moviles,
+      para mas informacion visita la pagina oficial de angular 
+      <a href="https://www.angularminds.com/blog/article/top-10-features-of-angular-9." target="_blank">Visita la pa&#769;gina Angular...</a></p>    
+  </div>
+
+  <div class="card-container">
+  
+    <a class="card" rel="noopener" href="#Resumen">
+      <span>Componentes</span>
+    </a>
+  
+    <a class="card" rel="noopener" href="#Estructura">
+      <span>Estructura</span>
+    </a>
+
+    <a class="card" rel="noopener" href="#AngularCLI">
+      <span>Angular CLI</span>
+    </a>
+  
+  
+  <div class="content">
+  <div id="Resumen">
+    <div id="Modulos">
+      <h2>Definicio&#769;n de Mo&#769;dulos</h2>
+      <p>son contenedores que te permiten agrupar componentes y servicios que formen parte de una aplicacio&#769;n, de esta manera se trabaja de una forma organizada, adema&#769;s Angular maneja el concepto de árbol para la jerarqui&#769;a de mo&#769;dulos
+        En angular el modulo rai&#769;z es el <b>AppModule</b> que se genera autom&#769;ticamente al crear un proyecto
+      </p>
+    </div>
+
+    <div id="Componentes">
+      <h2>Definicio&#769;n de Componente</h2>
+      <p>Los componentes son almacenados en los módulos, estos componentes sirven para creaciones de páginas web en angular se compone de dos partes principales la vista y el controlador 
+        Cuando se crea un proyecto en angular el componente que se crea por default es el app.component.ts, que no es más que una clase ts 
+      </p>
+    </div>
+    
+    <div id="Directivas">
+      <h2>Definicio&#769;n de Directivas</h2>
+      <p>Se usan para añadir, modificar y eliminar características de elementos DOM 
+        en el html,se aplican a los elementos padres (huésped) y esta a su vez se extiende a 
+        los elementos hijos, las directivas son precedidas del *</p>
+    </div>
+    
+    <div id="Pipes">
+      <h2>Definicio&#769;n de Pipes</h2>
+      <p>Permiten transformar visualmente la información, por ejemplo, cambiar un texto a mayúsculas o minúsculas, o darle formato de fecha y hora.</p>
+    </div>
+  </div>
+  
+  <h2>Estructura de una Aplicacion</h2>
+  <div id="Estructura">
+      <p>Conocer la estructura del proyecto ayuda a tranajar de forma ordenada, se detalla las principales carpetas </p>
+        <div id="Lista">
+          <ol>
+            <li><b>node_modules:</b> Contiene todas las dependencias de nuestro proyecto.</li>
+            <li><b>src:</b> Directorio que contiene los módulos, es el más importante, ya que contiene todo el código.</li>
+            <ul>
+              <li><b>Carpeta app:</b> Se ubica toda la implementación de los componentes principales, junto a su template html y archivos de estilos css.</li>
+              <li><b>Carpeta asset:</b> Contendrá todos los asset y archivos adicionales para hacer que el proyecto funcione.</li>
+              <li><b>Carpeta enviroments:</b> Se encuentra las configuraciones y variables de entorno para poner el proyecto en desarrollo o producción.</li>
+              <li><b>Archivo index.html:</b> Es el archivo de la paguina proncipla del proyecto</li>
+            </ul>
+            <li><b>package.json:</b> es la configuración de nuestra aplicación.</li>
+            <li><b>tsconfig.json:</b> contiene la configuración TypeScript.</li>
+          </ol>
+        </div>
+        <img id="ImgEstructura"
+          alt="Estructura Proyecto"
+          src="https://www.tutorialesprogramacionya.com/angularya/imagentema/foto009.jpg"
+        />
+  </div>
+
+  <section class="AngularCLI">
+    <h2>Angular CLI</h2>
+    <p>Facilita la creacion de nuevos componentes y del proyecto como tal</p>
+    <img id="AngularCLI"
+          alt="Angula CLI"
+          src="https://d33wubrfki0l68.cloudfront.net/a8ca95a509679ffb29b1da9bc2f533d228f03466/3ec6e/images/posts/2018-05-11-understanding-the-angular-cli-workspace-file/angular-cli-workspace-example5.gif"
+    />
+  </section>
+
+  <!-- Contactos -->
+<h2>Contactos</h2>
+<div class="card-container" id="Contactos">
+  <a class="circle-link" title="Facebook" href="https://facebook.com/" target="_blank" rel="noopener">
+    <img width="21.762" height="23.447" viewBox="0 0 21.762 23.447" id="facebook"
+          alt="Facebook"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1200px-Facebook_f_logo_%282019%29.svg.png"
+    />
+  </a>
+  <a class="circle-link" title="Linkedin" href="https://www.linkedin.com/in/allisson-menoscal-759001100" target="_blank" rel="noopener">
+    <img width="21.762" height="23.447" viewBox="0 0 21.762 23.447" id="facebook"
+          alt="Facebook"
+          src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-linkedin-circle-512.png"
+    />
+  </a>
+  
+</div>
+
+<section>
+  <app-first-component></app-first-component>
+</section>
+
+</div>
+
+
